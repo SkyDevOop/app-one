@@ -3,7 +3,7 @@ function MainContent(props) {
   return (
     <>
       <main>{props.content_page}</main>
-      <p>this.props.children</p>
+      <p>{props.children}</p>
     </>
   );
 }
